@@ -1,0 +1,40 @@
+
+/*##############   INIT   ###################*/
+html {
+background-image: url('https://a.travel-assets.com/findyours-php/viewfinder/images/res70/171000/171833-Bellevue.jpg');
+background-size: cover;
+font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    background: rgb(224, 243, 255);
+    padding : 3%;
+    width: 50%;
+    margin-top : 10%;
+    margin-left: 19%;
+    margin-right: 19%;
+    flex-wrap: wrap;
+
+}
+body{
+    
+    margin: 0px;
+    min-height: 102vh;
+    display : flex;
+    flex-direction: column;
+}
+
+form{
+    display: grid;
+    columns: 1fr;
+    max-width: 300px;
+    gap:20px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(38, 38, 98);
+}
